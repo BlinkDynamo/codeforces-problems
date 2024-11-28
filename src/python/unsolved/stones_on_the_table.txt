@@ -1,0 +1,12 @@
+# n stones. red, green, or blue
+
+n = int(input())
+s = input()
+r = 0	# amount removed
+
+for i in s:
+	if i == next(i):
+		r += 1
+		s.remove(i)
+		
+print(r)

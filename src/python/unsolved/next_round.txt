@@ -1,0 +1,27 @@
+# n is num of participants
+# k is the lowest placement that will proceed to the next round (ie 5 means the 5th place participant is the lowest that will continue
+# scores is the list of scores that is n long
+# a is advancers
+
+n, k = [int(i) for i in input().split()]
+
+scores = [int(i) for i in input().split()]
+
+a = 0
+
+for score in scores:
+	if (score >= k) and not (score == 0):
+		a += 1
+	
+	
+print(a)
+	
+	
+	
+
+
+
+
+
+ 
+
