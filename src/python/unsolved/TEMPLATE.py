@@ -1,10 +1,10 @@
 """------------------------------------------------------------
-filename: presents.py
+filename: .py
 author: Josh Hayden
  
 description:  
  
-regarding: https://codeforces.com/problemset/136/A
+regarding: https://codeforces.com/problemset/
 -----------------------------------------------------------"""
 
 # main function definition
